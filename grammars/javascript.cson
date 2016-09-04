@@ -15,7 +15,7 @@
   'pjs'
   'xsjs'
   'xsjslib'
-]
+]re
 'firstLineMatch': '^#!.*\\b(node|iojs|JavaScript)'
 'name': 'JavaScript'
 'patterns': [
@@ -1338,7 +1338,7 @@
         ]
       }
       {
-        'begin': '(Relay\\.QL)\\s*(`)'
+        'begin': '(Relay\\.QL)|(gql)\\s*(`)'
         'beginCaptures':
           '1':
             'name': 'entity.name.function.js'
